@@ -1,0 +1,13 @@
+# Description of files in this folder
+
+Input.txt: Contains multiple texts for be encoded by Huffman codes. Each test case starts with "#n" where n is the test case number.
+
+Encoder.java: Contains the main() method. This program reads the input file, construct a Huffman tree, compress the input text into a bitstream, construct a Huffman code lookup table to obtain the original text and finally test if the initial and the reconstructed texts are the same.
+
+Huffman.java: This class is used by Encoder.java to construct a Huffman tree.
+
+Node.java: This class represents nodes within the Huffman tree.
+
+DrawTree.java: This class is used by Encoder.java to visually display the Huffman tree built for each test case.
+
+Output.txt: Output for each test case, where each test case begins with "#n" for n the test case number. Each output contains the codewords for each character in the text, the compressed bitstream, the reconstructed text and displays "true" if the reconstructed text and the original text are the same.

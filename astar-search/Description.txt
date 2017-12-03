@@ -1,0 +1,9 @@
+# Description of files in this folder
+
+input.txt: Contains the network to be used with the AStar search algorithm. There are multiple test cases, each ended by a "-1 -1 -1". The first line of each input has three values for the number of nodes in the graph, the starting node and the end node respectively from left to right. The second line is the heuristics to be used within the AStar search, each value corresponds to the air distance between node 0, 1, 2 etc. to the end node. The lines afterwards correspond the the adjacency list representation of a network, where each line has three integers. The first two integers x and y indicates there is a path from x -> y and the third value is the length.
+
+Node.java: The class representing a Node within the network.
+
+ASearch.java: Contains the main() method. Finds the shortest path between two nodes in a network.
+
+output: Each line of the output represents the shortest path between the two given nodes. The last value is the length of the path.

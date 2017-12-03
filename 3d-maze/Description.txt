@@ -1,0 +1,9 @@
+# Description of files in this folder
+
+Input.txt: Input of the program. There are multiple test cases, each test case is separated from each other by a line break. The first line of each test case contains the size n of the cubic 3D maze. After that there are nxn lines of n characters each. Each nxn block of 0s and 1s afterward is a layer of the cube, from top to bottom.
+
+Maze.java: Contains the main() method. In the default setting, the program finds the shortest path from the origin [0][0][0] to [n-1][n-1][n-1] for n the size of the matrix. These two points are arbitrary. The path is defined as follows: from each point, the program is allowed to go up, down, left, right, up one layer, down one layer but not diagonally.
+
+MazeInputGenerator: Generates a random 3D cube to be used as the input.
+
+Output: output the length of the shortest path in each test case.
